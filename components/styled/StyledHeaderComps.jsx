@@ -71,7 +71,7 @@ export const StyledPrimaryListItem = styled.li`
     content:"";
     width:0;
     height:1px;
-    margin-top:-2px;
+    margin-top:-1px;
     display:block;
     transition:.3s linear;
     position:absolute;
