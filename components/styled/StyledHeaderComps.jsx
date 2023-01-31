@@ -67,21 +67,6 @@ export const StyledPrimaryListItem = styled.li`
    transform: ${({rotateImg}) => rotateImg && "rotate(180deg)"};
    transition: .3s ease-in-out;
   }
-  &::after{
-    content:"";
-    width:0;
-    height:1px;
-    margin-top:-1px;
-    display:block;
-    transition:.3s linear;
-    position:absolute;
-  }
-  
-   /* ACTIVE STATES */
-   
-   &:hover::after{
-     width:100%;
-   }
 
  
  @media (min-width:54rem){
@@ -126,7 +111,7 @@ export const StyledSubNavUL = styled.ul`
   @media (min-width:54rem){
     position:absolute;
     background-color:  var(--nl-White);
-    top:3em;
+    top:1.8em;
   }
 `
 
