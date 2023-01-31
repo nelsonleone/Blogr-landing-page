@@ -1,0 +1,47 @@
+export const LinksData = [
+  {
+      primaryNavLinks:[
+         {
+            listItem:"Product",
+            subNavs:[
+               {subNavItem:"Overview",link:"/"},
+               {subNavItem:"Pricing",link:"/"},
+               {subNavItem:"Marketplace",link:"/"},
+               {subNavItem:"Features",link:"/"},
+               {subNavItem:"Integrations",link:"/"}
+            ],
+            showSubMenu:false
+         },
+         {
+            listItem:"Company",
+            subNavs:[
+               {subNavItem:"About",link:"/"},
+               {subNavItem:"Team",link:"/"},
+               {subNavItem:"Blog",link:"/"},
+               {subNavItem:"Careers",link:"/"}
+            ],
+            showSubMenu:false
+         },
+         {
+            listItem:"Connect",
+            subNavs:[
+               {subNavItem:"Contact",link:"/"},
+               {subNavItem:"Newsletter",link:"/"},
+               {subNavItem:"LinkedIn",link:"/"}
+            ],
+            showSubMenu:false
+         }
+      ],
+
+      secondaryNavLinks:[
+         {
+            listItem:"Login",
+            link:"/"
+         },
+         {
+            listItem:"Sign Up",
+            link:"/"
+         },
+      ]
+   }
+]
