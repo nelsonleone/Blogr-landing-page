@@ -59,6 +59,7 @@ export const StyledPrimaryListItem = styled.li`
   color: var(--py-veryDark-Blue-HEADINGS);
   margin-block:1.5em;
   font-family:'Overpass',sans-serif;
+  position:relative;
 
   img{
    position: relative;
@@ -66,6 +67,21 @@ export const StyledPrimaryListItem = styled.li`
    transform: ${({rotateImg}) => rotateImg && "rotate(180deg)"};
    transition: .3s ease-in-out;
   }
+  &::after{
+    content:"";
+    width:0;
+    height:1px;
+    margin-top:-2px;
+    display:block;
+    transition:.3s linear;
+    position:absolute;
+  }
+  
+   /* ACTIVE STATES */
+   
+   &:hover::after{
+     width:100%;
+   }
 
  
  @media (min-width:54rem){
